@@ -13,10 +13,13 @@ CodeVault is a full-stack developer tool for storing, organizing, searching, and
 
 ## Screenshots
 
+| Login | Dashboard |
+|-------|-----------|
+| ![Login](./screenshots/login.png) | ![Dashboard](./screenshots/dashboard.png) |
 
-| Login | Dashboard | Explore | Snippet Detail |
-|-------|-----------|---------|----------------|
-| `ADD_IMAGE` | `ADD_IMAGE` | `ADD_IMAGE` | `ADD_IMAGE` |
+| Explore | Snippet Detail |
+|---------|----------------|
+| ![Explore](./screenshots/explore.png) | ![Snippet Detail](./screenshots/snippet-detail.png) |
 
 ---
 
