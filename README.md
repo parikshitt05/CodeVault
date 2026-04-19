@@ -1,173 +1,107 @@
-🚀 CodeVault
+# CodeVault
 
-CodeVault is a modern developer workspace for storing, managing, and sharing reusable code snippets.
-It allows developers to build their own searchable snippet library and explore public snippets from the community.
-✨ Features
-🔐 Authentication
+CodeVault is a full-stack developer tool for storing, organizing, searching, and sharing reusable code snippets. It works like a personal developer vault with public discovery features, combining private snippet management with a public explore experience.
 
-    User Registration
-    Secure Login
-    Protected Routes
-    JWT-based authentication (via backend)
+## Live Demo
 
-🧩 Snippet Management
+- Frontend: `ADD_YOUR_FRONTEND_URL_HERE`
+- Backend API: `ADD_YOUR_BACKEND_URL_HERE`
 
-    Create snippets
-    Edit snippets
-    Delete snippets
-    Private / Public visibility control
-    Add tags and language metadata
+## Screenshots
 
-🌍 Explore Public Snippets
+Add screenshots here after deployment.
 
-    Search by keyword
-    Filter by language
-    View snippet details
-    Save (bookmark) public snippets
+### Login Page
+`ADD_SCREENSHOT_PATH_OR_IMAGE_LINK`
 
-📚 Personal Library
+### Dashboard
+`ADD_SCREENSHOT_PATH_OR_IMAGE_LINK`
 
-    View your own snippets
-    Filter by visibility
-    View saved snippets
-    Remove saved snippets
+### Explore Page
+`ADD_SCREENSHOT_PATH_OR_IMAGE_LINK`
 
-📋 Productivity Enhancements
+### Snippet Detail Page
+`ADD_SCREENSHOT_PATH_OR_IMAGE_LINK`
 
-    Copy code to clipboard (Card + Detail page)
-    Modern responsive UI
-    Clean dashboard layout
-    Smooth hover and interaction effects
+## Features
 
-🛠 Tech Stack
-Frontend
+### Authentication
+- User registration and login
+- JWT-based authentication
+- Protected routes for authenticated users
+- Persistent login session on refresh
 
-    React
-    React Router
-    Tailwind CSS (v4)
-    Context API (Authentication)
-    Modern CSS Variables + Gradient UI
+### Snippet Management
+- Create code snippets
+- Edit existing snippets
+- Delete snippets
+- View full snippet details
+- Public and private snippet visibility
 
-Backend (Assumed)
+### Discovery and Search
+- Public explore page
+- Full-text search on snippets
+- Filter snippets by language
+- Tag-based organization
+- Popular/public snippet browsing
 
-    Node.js
-    Express
-    MongoDB
-    JWT Authentication
+### Personal Workspace
+- Dashboard for viewing your own snippets
+- Saved snippets/bookmark support
+- Visibility-based filtering
+- Owner-only edit and delete controls
 
-📂 Project Structure
+### User Experience
+- Protected frontend routes
+- Reusable form and card components
+- Loading, error, and empty states
+- Responsive developer-focused UI
 
-text
+## Tech Stack
 
-src/
-│
-├── components/
-│ ├── AppShell.jsx
-│ ├── ProtectedRoute.jsx
-│ ├── SnippetCard.jsx
-│ └── SnippetForm.jsx
-│
-├── pages/
-│ ├── DashboardPage.jsx
-│ ├── ExplorePage.jsx
-│ ├── CreateSnippetPage.jsx
-│ ├── EditSnippetPage.jsx
-│ ├── SnippetDetailPage.jsx
-│ ├── SavedSnippetsPage.jsx
-│ ├── LoginPage.jsx
-│ └── RegisterPage.jsx
-│
-├── context/
-│ └── AuthContext.jsx
-│
-├── lib/
-│ └── api.js
-│
-└── index.css
+### Frontend
+- React
+- Vite
+- React Router
+- Tailwind CSS
 
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+### Backend
+- Node.js
+- Express
+- MongoDB Atlas
+- Mongoose
+- JWT
+- bcryptjs
+- express-validator
 
-Bash
+## Project Structure
 
-git clone https://github.com/your-username/codevault.git
-cd codevault
+```txt
+CodeVault/
+  client/
+    public/
+    src/
+      components/
+      context/
+      lib/
+      pages/
+      App.jsx
+      index.css
+      main.jsx
+    package.json
+    vite.config.js
 
-2️⃣ Install Dependencies
+  server/
+    src/
+      config/
+      controllers/
+      middleware/
+      models/
+      routes/
+      validators/
+      app.js
+      server.js
+    package.json
 
-Bash
-
-npm install
-
-3️⃣ Setup Environment Variables
-
-Create a .env file:
-
-text
-
-VITE_API_BASE_URL=http://localhost:5000/api
-
-Adjust based on your backend URL.
-4️⃣ Run the Development Server
-
-Bash
-
-npm run dev
-
-App runs on:
-
-text
-
-http://localhost:5173
-
-🔒 Environment Variables
-Variable Description
-VITE_API_BASE_URL Backend API URL
-🎨 UI Highlights
-
-    Professional dark theme
-    Amber primary color palette (no blue/purple tones)
-    Clean avatar-based navbar
-    Gradient buttons and badges
-    Smooth hover transitions
-    Copy-to-clipboard support
-
-📸 Screens Included
-
-    Dashboard
-    Explore Page
-    Snippet Detail View
-    Authentication Pages
-    Saved Snippets Page
-
-✅ Future Improvements
-
-    Syntax highlighting
-    Dark/Light theme toggle
-    Profile dropdown menu
-    Pagination
-    Snippet versioning
-    Toast notifications
-    Rate limiting
-    Markdown support for descriptions
-
-🧠 Why CodeVault?
-
-Developers often:
-
-    Reuse similar code snippets
-    Forget where they saved useful logic
-    Copy code from old projects
-
-CodeVault solves that problem by giving you:
-
-    A personal snippet workspace
-    A searchable library
-    A clean and modern interface
-
-👨‍💻 Author
-
-Built with ❤️ by [Your Name]
-📜 License
-
-MIT License
+  .gitignore
+  README.md
