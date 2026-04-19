@@ -6,8 +6,8 @@ CodeVault is a full-stack developer tool for storing, organizing, searching, and
 
 ## Live Demo
 
-- Frontend: `ADD_YOUR_FRONTEND_URL_HERE`
-- Backend API: `ADD_YOUR_BACKEND_URL_HERE`
+- Frontend: `https://code-vault-gilt.vercel.app`
+- Backend API: `https://codevault-jkwh.onrender.com`
 
 ---
 
@@ -48,7 +48,7 @@ CodeVault is a full-stack developer tool for storing, organizing, searching, and
 
 ### Frontend
 - React + Vite
-- React Router v7
+- React Router v6
 - Tailwind CSS v3
 
 ### Backend
@@ -218,4 +218,4 @@ CodeVault goes beyond a basic CRUD app by combining authentication, authorizatio
 **Parikshit Tamhane**
 
 - GitHub: `https://github.com/parikshitt05`
-- LinkedIn: `www.linkedin.com/in/parikshit-tamhane-link/`
+- LinkedIn: `https://www.linkedin.com/in/parikshit-tamhane-link/`
